@@ -66,18 +66,23 @@ ollama serve
 Step 1: Ingest PDFs
 
 Place PDFs in data/raw/ and run:
+
 python src/ingest.py
 
 Step 2: Chunk documents
+
 python src/chunking.py
 
 Step 3: Create embeddings
+
 python src/embed.py
 
 Step 4: Build FAISS index
+
 python src/index.py
 
 Step 5: Ask Queries
+
 python src/rag.py
 
 

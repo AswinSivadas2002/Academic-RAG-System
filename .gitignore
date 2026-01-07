@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Data artifacts (generated)
+data/artifacts/
+
+# Ollama (local models)
+.ollama/
+
+# Logs
+*.log

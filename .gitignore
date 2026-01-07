@@ -1,25 +1,20 @@
+# Ignore all generated data
+data/*
+
+# But keep folder structure
+!data/raw/.gitkeep
+!data/artifacts/.gitkeep
+
 # Python
 __pycache__/
 *.pyc
-*.pyo
 
-# Virtual environment
+# Virtual env
 .venv/
-venv/
-
-# OS
-.DS_Store
-Thumbs.db
 
 # HuggingFace cache
 .cache/
 huggingface/
 
-# Data artifacts (generated)
-data/artifacts/
-
-# Ollama (local models)
+# Ollama
 .ollama/
-
-# Logs
-*.log
